@@ -1,0 +1,31 @@
+QUANTUM TUNNELING SIMULATION - RESULTS SUMMARY
+==================================================
+
+Main demo run:
+  Incident energy E      = 2.000
+  Barrier height V0      = 4.000
+  Transmission T (num)   = 0.0018
+  Reflection R (num)     = 0.9982
+  Norm conservation      = 1.000000 -> 1.000000
+
+Energy scan (E/V0, T_numeric, T_analytic):
+  E/V0= 0.08   T_num=0.0000   T_analytic=0.0000
+  E/V0= 0.12   T_num=0.0000   T_analytic=0.0000
+  E/V0= 0.18   T_num=0.0001   T_analytic=0.0001
+  E/V0= 0.25   T_num=0.0002   T_analytic=0.0002
+  E/V0= 0.32   T_num=0.0003   T_analytic=0.0003
+  E/V0= 0.41   T_num=0.0007   T_analytic=0.0006
+  E/V0= 0.50   T_num=0.0016   T_analytic=0.0013
+  E/V0= 0.61   T_num=0.0041   T_analytic=0.0031
+  E/V0= 0.72   T_num=0.0122   T_analytic=0.0081
+  E/V0= 0.85   T_num=0.0446   T_analytic=0.0243
+  E/V0= 0.98   T_num=0.1694   T_analytic=0.0904
+  E/V0= 1.12   T_num=0.4737   T_analytic=0.4049
+  E/V0= 1.28   T_num=0.7909   T_analytic=0.9850
+  E/V0= 1.45   T_num=0.8672   T_analytic=0.8805
+  E/V0= 1.62   T_num=0.8450   T_analytic=0.8112
+  E/V0= 1.80   T_num=0.8823   T_analytic=0.8693
+  E/V0= 2.00   T_num=0.9479   T_analytic=0.9588
+  E/V0= 2.21   T_num=0.9828   T_analytic=0.9995
+
+Mean absolute error (numeric vs analytic): 0.02530
